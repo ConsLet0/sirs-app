@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="10sp"
+    android:background="?attr/selectableItemBackground"
+    android:layout_marginBottom="10sp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/intro1"
+            android:id="@+id/areaParent"
+            app:cardCornerRadius="18sp"
+            android:layout_marginBottom="10sp"
+            app:cardElevation="4dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="10sp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="80dp"
+                    android:background="@color/text"
+                    android:id="@+id/placeImage"
+                    android:scaleType="centerCrop"
+                    android:layout_weight="0.2"/>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16sp"
+                        android:layout_marginBottom="7dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="Rumah Sakit"
+                        android:id="@+id/placeName"
+                        android:textColor="@color/text"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16sp"
+                        android:layout_marginBottom="10sp"
+                        android:fontFamily="@font/nunito_regular"
+                        android:text="Rumah Sakit"
+                        android:id="@+id/placeAddress"
+                        android:textColor="@color/text"
+                        android:textSize="12sp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16sp"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="3 km+"
+                        android:id="@+id/placeDistance"
+                        android:textColor="@color/text"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/next"/>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>

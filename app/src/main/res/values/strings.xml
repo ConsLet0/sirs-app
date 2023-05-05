@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SIRS</string>
+    <string name="intro1">Kami akan membantumu mencarikan pelayanan kesehatan yang terdekat dan terbaik untukmu</string>
+    <string name="title_intro1">Selamat Datang di SIRS</string>
+    <string name="title_intro2">Punya BPJS ?</string>
+    <string name="title_intro3">Bingung Cari Lokasinya?</string>
+    <string name="intro2">Bagi pengguna BPJS ada pilihan apakah pelayanan tersebut mendukung BPJS atau tidak</string>
+    <string name="intro3">Tenang, kami sudah menyediakan jalur untuk anda agar dapat sampai dengan tepat dan tanpa hambatan</string>
+    <string name="home_top">Pelayanan kesehatan apa yang sedang dicari ?</string>
+    <string name="home_bottom">Tenang, kami bantu carikan ya..</string>
+</resources>
